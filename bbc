@@ -131,6 +131,7 @@
             }
             
             
+            
             #menu-bar-container {
                 
                 background-color: #BB1919;
@@ -153,7 +154,7 @@
             h1 {
                 
                 padding: 0px;
-                margin-top: 5px;
+                margin: 5px;
                 color: white;
                 font-size: 40px; 
                 font-family: sans-serif;
@@ -220,10 +221,164 @@
                 margin: 0 auto;
                 height: 40px;
                 padding: 0px;
+                   
+                    
+            }
+            
+            #menu-bar-2 a {
+                
+                color: white;
+                text-decoration: none;
+                float: left;
+                padding: 0px 5px;
+                border-right: 1px solid #cccccc;
+                font-size: 16px;
+                position: relative;
+                top: 10px;
                 
                     
             }
             
+            i {
+                
+                border: solid white;
+                border-width: 0 2px 2px 0;
+                display: inline-block;
+                padding: 5px;
+                position: relative;
+                top: 12px;
+                left: 5px;
+                    
+            }
+            
+            
+            .arrow-down {
+                
+                transform: rotate(45deg);
+            }
+            
+            
+            
+            #menu-bar-2 a:hover {
+                
+                text-decoration: underline;
+            }
+            
+            
+            .no-border{
+                
+                border: none !important;
+            }
+        
+            
+            #page-containter {
+                
+                width: 1000px;
+                margin: 0 auto;
+            }
+            
+                h3 {
+                
+                font-weight: normal;
+                margin-top: 25px;
+                border-bottom: 3px solid #A91717;
+                width: 95px;
+                
+            }
+            
+            h2 a {
+                
+                font-size: 30px;
+                color: black;
+                text-decoration: none;
+              
+                                
+            }
+            
+            h2 a:hover {
+             
+              color: #1167A8;
+                
+            }
+            
+            
+            #main-article {
+                
+                font-weight: normal;
+                color: gray;
+                font-size: 16px;
+                            
+            }
+            
+            
+            #article-summary {
+                
+                font-weight: normal;
+                color: grey;
+                width: 270px;
+                           
+                            
+            }
+            
+            #article-container {
+                
+                float: left;
+                width: 800px;
+                border: 5px solid black;
+                
+            }
+            
+            
+            #main-article-image {
+                
+                width: 200px;
+                                
+            }
+            
+            
+            #article-hours {
+              
+                font-weight: normal;
+                color: grey;
+                font-size: 12px;
+                width: 200px;
+                
+                
+            }
+            
+            #article-hours a{
+                
+                text-decoration: none;
+                color: #BB1919;
+                font-weight: normal;
+            }
+            
+            #article-hours a:hover { 
+            
+            color: #1167A8;
+            
+            }
+            
+            #page-tag {
+                
+                border-left: 1px solid grey;
+                margin-left: 5px; 
+                padding-left: 5px;
+            
+                
+            }
+            
+            
+            #short-text {
+                
+                color: black;
+                font-family: arial;
+                font-size: 15px;
+                
+            }
+            
+            
+
             
         </style>
     
@@ -327,19 +482,88 @@
                 
                 <div id="menu-bar-2">
                 
+                <a href="">Home</a>
                 
+                <a href="">UK</a>
+                
+                <a href="">World</a>
+                    
+                <a href="">Business</a>
+                    
+                <a href="">Politics</a>
+                    
+                <a href="">Tech</a>
+                    
+                <a href="">Science</a>
+                    
+                <a href="">Health</a>
+                    
+                <a href="">Education</a>
+                
+                <a href="">Entertainment & Arts</a>
+                    
+                <a href="">Video & Audio</a>
+                    
+                <a href="" class="no-border">More</a>
+                    
+                <i class="arrow-down"></i>
+                    
                 
                 </div>
                 
             </div>   
     
-            
+                        
         </div>
                 
-           
-               
-               
+        <div class="clear"></div>
         
+        
+        <div id="page-containter">
+        
+            <div id="page-title">
+            
+                <h3>Technology</h3>
+            
+            </div>
+            
+            <div id="article-container">
+                
+                <div id="main-article">
+
+                <h2><a href="">Asda bug exposed payment details</a></h2>
+
+                </div>
+
+
+                <div id="article-summary">
+
+                <p>Security vulnerabilities that put customers at risk have affected Asda's website for a couple of years, a security expert has revealed.</p>
+
+
+                </div>
+
+                <div id="article-hours">
+
+                    2 hours ago <a href=""><span id="page-tag">Technology</span></a>
+
+                    <p id="short-text">Surveillance firm hit in hack attack eBay flaw has existed for months</p>
+
+
+                </div>
+
+                <img id="main-article-image" src="images/main-image.jpg">            
+                
+            </div>
+
+            
+        </div>
+            
+        
+        
+      
+               
+               
       
         
     </body>
